@@ -26,7 +26,7 @@ class PDOer
      */
     public function __clone()
     {
-        die('Cheatin&#8217; huh?');
+        die('You do not have enough permissions.');
     }
 
     /**
