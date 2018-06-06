@@ -39,7 +39,7 @@ class PDOer
      * @param  array  $options     PDO options
      * @return object              Class object
      */
-    public static function getInstance($host, $database, $user, $password = null, $charset = 'utf8', $options = [])
+    public static function getInstance($host, $database, $user, $password = null, $charset = 'utf8mb4', $options = [])
     {
         if (null === self::$_instance) {
             
